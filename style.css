@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
 :root {
     --text-color: #667085;
     --sobre-color: #8E2424;
@@ -64,3 +67,33 @@ button#signUp {
     text-align: center;
     line-height: 1.5rem;
   }
+  .metrics {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 3rem;
+    padding: 0 8rem;
+  }
+  
+  .metric {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .metric h1 {
+    color: var(--sobre-color);
+    font-size: 3rem;
+  }
+  
+  .metric span {
+    color: var(--text-color);
+    line-height: 140%;
+    font-size: 90%;
+  }
+  
+  .metric .metric-title {
+    font-weight: 500;
+    color: #101828;
+  }
+  
+
