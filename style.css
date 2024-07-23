@@ -100,13 +100,28 @@ button#signUp {
     padding: 6rem 7rem;
     display:flex;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
+    gap:2rem;
   }
 
   .talent-tittle {
-    padding-bottom: 1rem;
+    text-align: center;
+    width: 7.8rem;
+    height: 1.75rem;
+    padding-top: 0.25rem;
+    border-radius: 1rem;
     color: var(--sobre-color);
-    background-color: #667085;
-    font-size: 14px;;
+    background-color: #f0e9e9;
+    font-size: 14px;
+  }
+  
+  .talent-phase-1 {
+    font-size: 2.25rem;
+
   }
 
+  .talent-phase-2 {
+    font-size: 1.25rem;
+    color: var(--text-color);
+    
+  }
