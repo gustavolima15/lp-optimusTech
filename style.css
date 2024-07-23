@@ -96,4 +96,17 @@ button#signUp {
     color: #101828;
   }
   
+  .talent {
+    padding: 6rem 7rem;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .talent-tittle {
+    padding-bottom: 1rem;
+    color: var(--sobre-color);
+    background-color: #667085;
+    font-size: 14px;;
+  }
 
